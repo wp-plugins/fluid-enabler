@@ -10,6 +10,8 @@ Fluid Enabler allow you to use great features from Fluid’s Site Specific brows
 
 Fluid Enabler allow you to use great features from [Fluid](http://fluidapp.com/)’s Site Specific browsers (SSb), for MacOS X. It shows how many comments awaiting moderation there are in the Dock using a Mail-like badge. It also uses [Growl Notifications](http://growl.info/) to tell you about WordPress and Plugins updates and comments awaiting moderation.
 
+Fluid Enabler is ready for any language. French localization is good, English should be okay, and Spanish may be approximative. If you ever find any translation error, or if you want to help adding more languages, please contact me.
+
 == Installation ==
 
 Installing Fuild Enabler is very easy and do not require any template modification.
@@ -33,6 +35,4 @@ Growl is a notification system for Mac OS X: it allow supported applications to 
 
 == Screenshots ==
 
-== Arbitrary section ==
-
-Test.
+1. The three notifications Fluid Enabler can display.

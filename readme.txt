@@ -4,35 +4,43 @@ Requires at least: 2.6.0
 Tested up to: 2.6.1
 Stable tag: 0.1
 
-Fluid Enabler allow you to use great features from Fluid’s Site Specific browsers (SSb) for MacOS X, like Dock badge and Growl Notifications.
+Fluid Enabler allow you to use great features from Fluid’s Site Specific browsers (SSb) for Mac OS X, like Dock badge and Growl Notifications.
 
 == Description ==
 
-Fluid Enabler allow you to use great features from [Fluid](http://fluidapp.com/)’s Site Specific browsers (SSb), for MacOS X. It shows how many comments awaiting moderation there are in the Dock using a Mail-like badge. It also uses [Growl Notifications](http://growl.info/) to tell you about WordPress and Plugins updates and comments awaiting moderation.
+Fluid Enabler allow you to use great features from [Fluid](http://fluidapp.com/)’s *Site Specific browsers* (SSb), for Mac OS X. It shows the number of comments awaiting moderation in the Dock, using a badge, like Apple's Mail. It also uses [Growl Notifications](http://growl.info/) to tell you about WordPress and Plugins updates, and new comments.
 
-Fluid Enabler is ready for any language. French localization is good, English should be okay, and Spanish may be approximative. If you ever find any translation error, or if you want to help adding more languages, please contact me.
+Fluid Enabler is ready for any language. **French** localization is done, *English* should be okay, and *Spanish* may be approximative. If you ever find any translation error, or if you want to help submitting a new language, please contact me.
 
 == Installation ==
 
-Installing Fuild Enabler is very easy and do not require any template modification.
+Installing Fuild Enabler is very easy and do not require any template modification. Just follow these steps :
 
-1. Upload `fluidenabler.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload `fluidenabler.php` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+
+It's that simple !
 
 == Frequently Asked Questions ==
 
-= I don't see any difference since I installed the plugin. Why ? =
+= I don't see anything. Is the plugin working ? =
 
-This plugin only works on MacOS X, because it uses third party Macintosh software. You need to use a Site Specific browser bluit with Fluid app to see notifications.
+This plugin only works on Mac OS X because it uses third party Macintosh software. You need to use a *Site Specific browser* bluit with [Fluid](http://fluidapp.com/) app to see notifications.
+
+If you're using a Fluid browser on Mac OS X, it should be okay.
 
 = What is the number displayed in the Dock ? =
 
 The number you can see in the Dock is the number of comments awaiting your moderation. It looks like Mail's Dock icon.
 
-= What is Growl ? =
+= What's Fluid ? =
 
-Growl is a notification system for Mac OS X: it allow supported applications to send you notifications about what's happening. This plugin allow your Wordpress blog to tell you about updates and new comments.
+[Fluid](http://fluidapp.com/) is a software that allow you to bluid *Site Specific browsers* (SSb). A SSb is a web app that behaves like a regular desktop application, using its own browser. SSb allow you to **use your browser for browsing**, without having to keep a hundred tabs for Facebook, GMail, MySpace and other web apps.
+
+= What's Growl ? =
+
+[Growl](http://growl.info/) is a notification system for Mac OS X : it allow supported applications to send you notifications about what's happening in your apps. This plugin allow your Wordpress blog to tell you about updates and new comments.
 
 == Screenshots ==
 
-1. The three notifications Fluid Enabler can display.
+1. Notifications Fluid Enabler can send you.

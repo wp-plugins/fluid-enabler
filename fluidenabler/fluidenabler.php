@@ -4,7 +4,7 @@ Plugin Name: Fluid Enabler
 Plugin URI: http://guillomftp.free.fr/wordpress/
 Description: Fluid Enabler allow you to use great features from <a href="http://fluidapp.com/">Fluid</a>'s <i>Site Specific browsers</i> (SSb), for MacOS X. It shows how many comments awaiting moderation there are in the Dock using a Mail-like badge. It also uses <a href="http://growl.info/">Growl</a> Notifications to tell you about Wordpress and Plugins updates and comments awaiting moderation.
 Author: Guillaume Mahieux
-Version: 0.1
+Version: 0.2
 Author URI: http://guillomftp.free.fr/
 */
 

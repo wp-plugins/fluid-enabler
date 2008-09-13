@@ -2,7 +2,7 @@
 Tags: fluid, growl, notification, update
 Requires at least: 2.6.0
 Tested up to: 2.6.2
-Stable tag: 0.1
+Stable tag: 0.2
 
 Fluid Enabler allow you to use great features from Fluid’s Site Specific browsers (SSb) for Mac OS X, like Dock badge and Growl Notifications.
 

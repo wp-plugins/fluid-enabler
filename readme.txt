@@ -2,7 +2,7 @@
 Tags: fluid, growl, notification, update
 Requires at least: 2.5.0
 Tested up to: 2.6.2
-Stable tag: 0.2
+Stable tag: 0.3
 
 Fluid Enabler allow you to use great features from Fluid’s Site Specific browsers (SSb) for Mac OS X, like Dock badge and Growl Notifications.
 
@@ -44,4 +44,4 @@ The number you can see on the dock icon (in the *badge*) is the number of commen
 == Screenshots ==
 
 1. Notifications Fluid Enabler may send you, if appropriate (WordPress updates, new comments, plugins updates).
-2. This is what WordPress' dock icon looks like when comments are awaiting moderation ; as cool as Apple's Mail. ;-)
+2. This is what WordPress' dock icon looks like when comments are awaiting moderation; as good-looking as Apple Mail.

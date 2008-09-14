@@ -10,16 +10,16 @@ Fluid Enabler allow you to use great features from Fluid’s Site Specific brows
 
 Fluid Enabler allow you to use great features from [Fluid](http://fluidapp.com/)’s *Site Specific browsers* (SSb), for Mac OS X. It shows the number of comments awaiting moderation in the Dock, using a badge, like Apple's Mail. It also uses [Growl Notifications](http://growl.info/) to tell you about WordPress and Plugins updates, and new comments.
 
+*Note :* when updating **from 0.2 to 0.3**, you may need to re-activate the plugin through the 'Plugins' menu in WordPress.
+
 Fluid Enabler is ready for any language. *French* localization is done, *English* should be okay, but *Spanish* may be approximative. If you ever find any translation error, or if you want to help submitting a new language, please contact me.
 
 == Installation ==
 
 Installing Fuild Enabler is very easy and do not require any template modification. Just follow these steps :
-
-1. Upload the folder `/fluidenabler/` to the `/wp-content/plugins/` directory.
+1. Upload the folder `/fluid-enabler/` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-
-It's that simple ! :-)
+It's that simple !
 
 == Frequently Asked Questions ==
 
@@ -27,7 +27,7 @@ It's that simple ! :-)
 
 This plugin only works on Mac OS X because it uses third party Macintosh software. You need to use a *Site Specific browser* built with [Fluid](http://fluidapp.com/) app to see notifications and dock badge.
 
-If you're using a Fluid browser on Mac OS X, everything should be fine.
+If you're running a Fluid browser on Mac OS X, everything should be fine.
 
 = What is the number displayed on the dock icon ? =
 

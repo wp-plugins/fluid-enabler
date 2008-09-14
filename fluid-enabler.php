@@ -4,7 +4,7 @@ Plugin Name: Fluid Enabler
 Plugin URI: http://wordpress.org/extend/plugins/fluid-enabler/
 Description: Fluid Enabler allow you to use great features from <a href="http://fluidapp.com/">Fluid</a>'s <i>Site Specific browsers</i> (SSb), for MacOS X. It shows how many comments awaiting moderation there are in the Dock using a Mail-like badge. It also uses <a href="http://growl.info/">Growl</a> Notifications to tell you about Wordpress and Plugins updates and comments awaiting moderation.
 Author: Guillaume Mahieux
-Version: 0.2
+Version: 0.3
 Author URI: http://guillomftp.free.fr/
 */
 
@@ -32,7 +32,7 @@ Author URI: http://guillomftp.free.fr/
 add_action( 'init', 'fluid_enabler_init' );
 function fluid_enabler_init()
 {
-	load_plugin_textdomain( 'fluidenabler', 'wp-content/plugins/fluidenabler/' );
+	load_plugin_textdomain( 'fluid-enabler', 'wp-content/plugins/fluid-enabler/' );
 }
 
 // Main plugin
@@ -64,8 +64,8 @@ var pluginsUpdates = <? echo $pluginsUpdates; ?>; // nombre de mises à jour de 
 if(wordpressUpdateAvailable == true)
 {
 	window.fluid.showGrowlNotification({
-		title: "<? printf(__('WordPress %s available', 'fluidenabler'), $cur->current); ?>",
-		description: "<? printf(__('A new version of WordPress is now available. Please upgrade to WordPress %s.', 'fluidenabler'), $cur->current); ?>",
+		title: "<? printf(__('WordPress %s available', 'fluid-enabler'), $cur->current); ?>",
+		description: "<? printf(__('A new version of WordPress is now available. Please upgrade to WordPress %s.', 'fluid-enabler'), $cur->current); ?>",
 		priority: 1,
 		sticky: false
 	});
@@ -79,13 +79,13 @@ if(commentsAwaitingModeration > 0)
 	
 	if (commentsAwaitingModeration == 1) <? /* 1 Commentaire */ ?>
 	{
-		growlTitle = "<? _e('New comment', 'fluidenabler'); ?>";
-		growlDescription = "<? _e('There is 1 comment awaiting moderation.', 'fluidenabler'); ?>";
+		growlTitle = "<? _e('New comment', 'fluid-enabler'); ?>";
+		growlDescription = "<? _e('There is 1 comment awaiting moderation.', 'fluid-enabler'); ?>";
 	}
 	else <? /* Plusieurs commentaire */ ?>
 	{
-		growlTitle = "<? _e('New comments', 'fluidenabler'); ?>";
-		growlDescription = "<? printf(__('There are %d comments awaiting moderation.', 'fluidenabler'), $commentsAwaitingModeration); ?>";
+		growlTitle = "<? _e('New comments', 'fluid-enabler'); ?>";
+		growlDescription = "<? printf(__('There are %d comments awaiting moderation.', 'fluid-enabler'), $commentsAwaitingModeration); ?>";
 		// "Il y a " + commentsAwaitingModeration + " commentaires en attente de modération."
 	}
 	
@@ -108,13 +108,13 @@ if(pluginsUpdates > 0)
 	
 	if (pluginsUpdates == 1) <? /* 1 Mise à jour */ ?>
 	{
-		growlTitle = "<? _e('Plugin update available', 'fluidenabler'); ?>";
-		growlDescription = "<? _e('There is an update available for one of your plugins. Please update.', 'fluidenabler'); ?>";
+		growlTitle = "<? _e('Plugin update available', 'fluid-enabler'); ?>";
+		growlDescription = "<? _e('There is an update available for one of your plugins. Please update.', 'fluid-enabler'); ?>";
 	}
 	else <? /* Plusieurs mises à jour */ ?>
 	{
-		growlTitle = "<? _e('Plugin updates available', 'fluidenabler'); ?>";
-		growlDescription = "<? printf(__('There are %d updates available for your plugins. Please update.', 'fluidenabler'), $pluginsUpdates); ?>";
+		growlTitle = "<? _e('Plugin updates available', 'fluid-enabler'); ?>";
+		growlDescription = "<? printf(__('There are %d updates available for your plugins. Please update.', 'fluid-enabler'), $pluginsUpdates); ?>";
 	}
 	
 	<? /* Affichage des informations */ ?>

@@ -17,8 +17,10 @@ Fluid Enabler is ready for any language. *French* localization is done, *English
 == Installation ==
 
 Installing Fuild Enabler is very easy and do not require any template modification. Just follow these steps :
+
 1. Upload the folder `/fluid-enabler/` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
+
 It's that simple !
 
 == Frequently Asked Questions ==
